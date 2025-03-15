@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #FF6347; /* Pomalo pomoranđasto crvena */
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.video-container {
+    background-color: #282828;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.video-placeholder {
+    width: 80%;
+    height: 400px;
+    background-color: #444;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
